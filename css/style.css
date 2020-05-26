@@ -66,7 +66,13 @@ a.navbar-header.my-nav-header-link{
   height: 240px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  border-radius: 8px;
+}
+
+.row.my-6-cols > * > .row{
+  padding: 20px;
+
 }
 
 .my-img.n2{
